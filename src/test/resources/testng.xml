@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+    <listener class-name="com.thutrang.automation.listeners.TestListener" />
+  </listeners>
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.thutrang.automation.tests.CheckboxTest"/>
+      <class name="com.thutrang.automation.tests.MultipleWindowsTest"/>
+      <class name="com.thutrang.automation.tests.FileDownloadTest"/>
+      <class name="com.thutrang.automation.tests.HoversTest"/>
+      <class name="com.thutrang.automation.tests.DropDownTest"/>
+      <class name="com.thutrang.automation.tests.DynamicControlsTest"/>
+      <class name="com.thutrang.automation.tests.NestedFramesTest"/>
+      <class name="com.thutrang.automation.tests.ShadowDOMTest"/>
+      <class name="com.thutrang.automation.tests.SortableDataTablesTest"/>
+      <class name="com.thutrang.automation.tests.BrokenImagesTest"/>
+      <class name="com.thutrang.automation.tests.InputTest"/>
+      <class name="com.thutrang.automation.tests.FormAuthenticationTest"/>
+      <class name="com.thutrang.automation.tests.DynamicLoadingTest"/>
+      <class name="com.thutrang.automation.tests.IFrameTest"/>
+      <class name="com.thutrang.automation.tests.JavaScriptAlertsTest"/>
+      <class name="com.thutrang.automation.tests.FileUploadTest"/>
+      <class name="com.thutrang.automation.tests.DragandDropTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
