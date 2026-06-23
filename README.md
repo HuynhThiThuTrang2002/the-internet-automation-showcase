@@ -60,7 +60,7 @@ src/test/java
         └── ShadowDOMTest.java
 testng.xml                            # Quản lý luồng thực thi và đăng ký Hệ thống Báo cáo
 pom.xml                               # Quản lý các dependencies và cấu hình build hệ thống
-
+```
 ## 🛠️ Công Nghệ & Công Cụ Sử Dụng (Tech Stack)
 Ngôn ngữ chính: Java
 
@@ -81,17 +81,16 @@ Hệ thống Báo cáo: Extent Reports (Tự động chụp ảnh giao diện kh
 Trình duyệt Google Chrome
 
 ### Các bước thực thi
-1.  **Clone dự án về máy cục bộ:
-git clone <đường-dẫn-repository-của-bạn>
-    ```
+1.  **Clone dự án về máy cục bộ:**
+git clone <https://github.com/HuynhThiThuTrang2002/the-internet-automation-showcase>
 2.  **Chạy toàn bộ Suite kiểm thử qua Terminal (Maven CLI):**
 ```bash
     mvn clean test
-    ```
+```
 3.  **Xem báo cáo kiểm thử:**
-* Sau khi quá trình thực thi kết thúc, truy cập thư mục: `target/ExtentReport.html`.
-* Mở file trên bằng trình duyệt để xem biểu đồ và hình ảnh minh họa trạng thái.
-
+* Sau khi quá trình thực thi kết thúc, truy cập thư mục: `target/ExtentReport.html`.*
+* Mở file trên bằng trình duyệt để xem biểu đồ và hình ảnh minh họa trạng thái.*
+  
 ---
 
 ## 👩‍💻 Thông Tin Tác Giả (Author)
