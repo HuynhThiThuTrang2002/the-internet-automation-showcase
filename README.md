@@ -62,13 +62,13 @@ testng.xml                            # Quản lý luồng thực thi và đăng
 pom.xml                               # Quản lý các dependencies và cấu hình build hệ thống
 ```
 ## 🛠️ Công Nghệ & Công Cụ Sử Dụng (Tech Stack)
-Ngôn ngữ chính: Java
 
-Thư viện lõi: Selenium WebDriver (v4.x)
-Kiểm thử cốt lõi: TestNG (Quản lý Test Cases, Assertions, DataProvider)
-Quản lý dự án & Build: Apache Maven
-Quản lý Trình duyệt: WebDriverManager (Tự động hóa quản lý driver nhị phân)
-Hệ thống Báo cáo: Extent Reports (Tự động chụp ảnh giao diện khi lỗi, kết xuất đồ thị trực quan)
+* **Ngôn ngữ chính:** Java
+* **Thư viện lõi:** Selenium WebDriver (v4.x) 
+* **Kiểm thử cốt lõi:** TestNG (Quản lý Test Cases, Assertions, DataProvider) 
+* **Quản lý dự án & Build:** Apache Maven 
+* **Quản lý Trình duyệt:** WebDriverManager (Tự động hóa quản lý driver nhị phân) 
+* **Hệ thống Báo cáo:** Extent Reports (Tự động chụp ảnh giao diện khi lỗi, kết xuất đồ thị trực quan) 
 
 ## 📊 Giao diện Báo cáo Tự động (Extent Reports Dashboard)
 ![Extent Report Dashboard](extent-report.png)
